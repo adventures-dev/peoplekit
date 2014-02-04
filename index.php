@@ -29,7 +29,7 @@
 				    		<img src="assets/img/logo.png">
 				    	</div>
 				    	<div id="subheader1">
-				    		A time-effective and hassle-free quarterly subscription service for leaders that helps to grow your team and employees. .
+				    		A time-effective and hassle-free quarterly subscription service for leaders that helps to grow your team and employees.
 				    	</div>
 				    	
 				    	<div id="subheader2">
