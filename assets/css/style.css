@@ -58,6 +58,7 @@ input#email{
 	height: 30px;
 	width: 260px;
 	padding: 5px 0px 5px 10px;
+	border-radius: 0px;
 }
 #mail_form button{
 	border: none;
@@ -72,6 +73,8 @@ input#email{
 	-moz-transition:background 0.25s ease-in;  
 	-o-transition:background 0.25s ease-in;  
 	transition:background 0.25s ease-in;
+		border-radius: 0px;
+
 }
 #mail_form button:hover{
 	background: #3d3d3d;
