@@ -1,7 +1,6 @@
 <?php
 
 	$email = $_POST['email'];
-	$email = mysql_real_escape_string($email);
 	
     include("config.php");
 	include('MCAPI.class.php');
