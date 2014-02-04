@@ -1,0 +1,9 @@
+<?php
+
+	//MAILCHIMP
+	$chimpapikey = "";
+	$chimplistId = "";
+
+	
+
+?>
