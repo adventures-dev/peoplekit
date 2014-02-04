@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>People Kit</title>
+        <title>PEOPLEKIT</title>
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -29,7 +29,7 @@
 				    		<img src="assets/img/logo.png">
 				    	</div>
 				    	<div id="subheader1">
-				    		A time-effective and hassie free quarterly subscription service for leaders that helps to grow your team and employees.
+				    		A time-effective and hassle-free quarterly subscription service for leaders that helps to grow your team and employees. .
 				    	</div>
 				    	
 				    	<div id="subheader2">
@@ -45,6 +45,9 @@
 				        	</form>
 				        	<div id="error"></div>
 			        	
+				    	</div>
+				    	<div id="footer_text">
+				    		First PEOPLEKIT Ships Second Quarter 2014
 				    	</div>
 		
 	        	</div>
