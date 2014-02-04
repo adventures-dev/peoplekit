@@ -1,22 +1,89 @@
 /************** MAIN ELEMENTS ***************/
 html, body{
 	height: 100%;
-
+	font-family: 'Open Sans', sans-serif;
+	
+	background: url("../img/background.jpeg");
+	background-size: cover;
 }
 
-#wrap{
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -4em;
-}
-footer{
+#wrapper{
 	width: 100%;
-	min-height: 4em;
-	padding: 40px 0px 40px;
 }
 
+#box{
+	margin: 10% auto 0px;
+	width: 90%;
+	max-width: 800px;
+	height: auto;
+	background: rgba(255,255,255,0.9);
+	padding: 40px 40px;
+	text-align: center;
+}
 
+#header{
+	
+}
+#header img{
+	width: 200px;
+}
+#subheader1{
+	margin-top: 20px;
+	font-weight: 300;
+	font-size: 14pt;
+	line-height: 40px;
+	
+}
+#subheader2{
+		margin-top: 20px;
+	font-weight: 700;
+	font-size: 11pt;
+	line-height: 30px;
+}
+
+#mail_form{
+	margin-top: 20px;
+}
+
+input#email{
+	border: none;
+	background: white;
+	box-shadow: none;
+	font-weight: 300;
+	height: 30px;
+	width: 260px;
+	padding: 5px 0px 5px 10px;
+}
+#mail_form button{
+	border: none;
+	background: #4a4a4a;
+	box-shadow: none;
+	text-shadow: none;
+	color: white;
+	font-weight: 300;
+	height: 40px;
+	padding: 10px 20px;
+	-webkit-transition:background 0.25s ease-in;  
+	-moz-transition:background 0.25s ease-in;  
+	-o-transition:background 0.25s ease-in;  
+	transition:background 0.25s ease-in;
+}
+#mail_form button:hover{
+	background: #3d3d3d;
+	-webkit-transition:background 0.25s ease-in;  
+	-moz-transition:background 0.25s ease-in;  
+	-o-transition:background 0.25s ease-in;  
+	transition:background 0.25s ease-in; 
+}
+label.error, #error{
+	font-size: 10pt;
+	opacity: 0.8;
+	padding: 0px;
+	line-height: 10px;
+}
+label.error:hover{
+	cursor: default;
+}
 /*********** RESPONSIVE **********/
 
 

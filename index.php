@@ -15,34 +15,41 @@
         <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
         <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     </head>
     
     <body>
         <?php include( "config.php");?>
-        <?php include( "scripts/dbconnect.php");?>
 
-        
-        <div id='wrap'><!--page wrapper -->
-        
-        	<div class="container">
-			    <div class="row-fluid">
-		        	<form action="" method="POST" id='mailchimp_form'>
-			        	<div class="input-append">
-			        		<input id='email' name="email" type="email" placeholder="Enter your email">
-			        		<button class="btn">Submit</button>
-			        	</div>
-		        	</form>
-		        	<div id="error"></div>
-	
+        <div id="wrapper">
+	        	<div id="box">
+				    <div class="row-fluid">
+				    	
+				    	<div id="header" class="section">
+				    		<img src="assets/img/logo.png">
+				    	</div>
+				    	<div id="subheader1">
+				    		A time-effective and hassie free quarterly subscription service for leaders that helps to grow your team and employees.
+				    	</div>
+				    	
+				    	<div id="subheader2">
+				    		7-10 Bits & Pieces. 5 Hours. Every 90 Days. $250 Per Shipment.
+				    	</div>
+				    	<div id="mail_form" class="section">
+				 
+				        	<form action="" method="POST" id='mailchimp_form'>
+					        	<div class="input-append">
+					        		<input id='email' name="email" type="email" placeholder="Interested? Enter your email.">
+					        		<button class="btn">Submit</button>
+					        	</div>
+				        	</form>
+				        	<div id="error"></div>
+			        	
+				    	</div>
+		
 	        	</div>
-        	</div>
-        </div> <!--end of wrap-->
-        
-        <footer><!--page footer -->
-
-        </footer><!--end of footer-->
-        
+	        </div>
+        </div>
         
 	    <!-- Le scripts -->
         <script src="assets/js/jquery.min.js" type="text/javascript"></script>
