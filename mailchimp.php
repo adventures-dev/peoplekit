@@ -3,6 +3,15 @@
 	$email = $_POST['email'];
 	
     include("config.php");
+    include("dbconnect.php");
+    
+    $email = mysql_real_escape_string($email);
+    $date_entered = date("Y-m-d H:i:s");
+    
+    mysql_query("INSERT INTO emails (email, date_entered) VALUES ('$email', '$date_entered')")or die(mysql_error());
+    
+    echo true;
+    /*
 	include('MCAPI.class.php');
 
 	$apikey = $chimpapikey;
@@ -23,6 +32,8 @@
 	} else {
 		echo true;
 	}
+	
+	*/
 
 
 ?>
