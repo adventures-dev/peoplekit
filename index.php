@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>PEOPLEKIT</title>
+        <title>THE SPARK CARDS</title>
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -38,14 +38,14 @@
 				    <div class="row-fluid">
 				    	
 				    	<div id="header" class="section">
-				    		<img src="assets/img/logo.png">
+				    		<img src="assets/img/spark.jpg">
 				    	</div>
 				    	<div id="subheader1">
-				    		A time-effective and hassle-free quarterly subscription service for leaders that helps to grow your team and employees.
+							Coming Soon to Kickstarter
 				    	</div>
 				    	
 				    	<div id="subheader2">
-				    		7-10 Bits & Pieces. 5 Hours. Every 90 Days. $250 Per Shipment.
+				    		Stay Informed
 				    	</div>
 				    	<div id="mail_form" class="section">
 				 
@@ -59,7 +59,6 @@
 			        	
 				    	</div>
 				    	<div id="footer_text">
-				    		First PEOPLEKIT Ships Second Quarter 2014
 				    	</div>
 		
 	        	</div>
